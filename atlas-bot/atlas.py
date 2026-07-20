@@ -23,8 +23,9 @@ def mission():
                 missions.pop(number - 1)
                 print("Mission deleted.")
                 showMission()
+                missionDelExit = input("Mission Number: ")
 
-                if number == "exit":
+                if missionDelExit == "exit":
                     break
         elif mission == "exit":
             break
