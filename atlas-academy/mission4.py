@@ -1,10 +1,10 @@
+print("=== ATLAS Loops ===")
+print("ATLAS ONLINE")
+
 running = True
 
 while running:
-    print("=== ATLAS Loops ===")
-    print("ATLAS ONLINE")
     command = input("Command: ")
-
     if command == "hello":
         print("Hello, Wynn.")
     elif command == "mission":
